@@ -10,7 +10,7 @@ You can build the image like this:
 #!/usr/bin/env bash
 
 docker build --no-cache \
-	-t "rubensa/node-chrome" \
+	-t "rubensa/node-chrome:dubnium" \
 	--label "maintainer=Ruben Suarez <rubensa@gmail.com>" \
 	.
 ```
@@ -32,7 +32,7 @@ prepare_docker_timezone
 docker run --rm -it \
   --name "node-chrome" \
   ${ENV_VARS} \
-  rubensa/node-chrome
+  rubensa/node-chrome:dubnium
 ```
 
 ## Connect
