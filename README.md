@@ -1,4 +1,4 @@
-# Docker image based on ubuntu and running tini init system
+# Docker image based on official node image with Google Chrome installed
 
 This is a Docker image based on [node](https://hub.docker.com/_/node/) with Google Chrome installed.
 
