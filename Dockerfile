@@ -1,4 +1,4 @@
-FROM node
+FROM node:dubnium
 LABEL author="Ruben Suarez <rubensa@gmail.com>"
 
 # Avoid warnings by switching to noninteractive
