@@ -52,7 +52,7 @@ jobs:
           file: ./Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/node-chrome:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/node-chrome:fermium
           labels: maintainer=Ruben Suarez <rubensa@gmail.com>
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache

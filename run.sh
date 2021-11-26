@@ -10,4 +10,4 @@ prepare_docker_timezone
 docker run --rm -it \
   --name "node-chrome" \
   ${ENV_VARS} \
-  rubensa/node-chrome
+  rubensa/node-chrome:fermium

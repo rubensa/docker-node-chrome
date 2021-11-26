@@ -1,4 +1,4 @@
-FROM node
+FROM node:fermium
 LABEL author="Ruben Suarez <rubensa@gmail.com>"
 
 # Avoid warnings by switching to noninteractive
